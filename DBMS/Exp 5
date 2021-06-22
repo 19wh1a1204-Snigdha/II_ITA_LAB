@@ -1,0 +1,35 @@
+create database BusTicketReservation;
+use BusTicketReservation;
+
+create table bus(b_num int primary key, b_route varchar(20), b_time int);
+show tables;
+insert into bus values(11,'kukatpally',9);
+insert into bus values(12,'Madhapur',10);
+insert into bus values(13,'Himayathnagar',11);
+select * from bus;
+select b_num,b_route,b_time from bus;
+update bus set b_route='Nizampet' where b_num=12;
+update bus set b_time = 7 where b_num = 11;
+alter  table bus add Driver_name varchar(15);
+select * from bus;
+create table ticket(t_num int primary key,t_amount real,t_date date);
+show tables;
+insert into ticket values(513,90.00,'2021-04-13');
+insert into ticket values(514,100.00,'2021-04-12');
+insert into ticket values(515,120.00,'2021-04-11');
+select * from ticket;
+select t_num,t_amount,t_date from ticket;
+update ticket set t_date='2021-04-10' where t_num=513;
+delete from ticket where t_num=515;
+select * from ticket;
+create table passenger(p_id int primary key,p_name varchar(20),p_age int,p_seatnum int);
+
+insert into passenger values(1,'jessy',18,12);
+insert into passenger values(2,'Mercy',17,34);
+insert into passenger values(3,'Dia',16,56);
+insert into passenger values(4,'Romio',18,78);
+alter table passenger modify p_name varchar(25);
+alter table passenger drop p_seatnum;
+select * from passenger;
+select p_id,p_name,p_age from passenger;
+select * from passenger;
