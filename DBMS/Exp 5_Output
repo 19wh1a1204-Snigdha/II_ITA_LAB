@@ -1,0 +1,43 @@
+Tables_in_BusTicketReservation
+bus
+b_num	b_route	b_time
+11	kukatpally	9
+12	Madhapur	10
+13	Himayathnagar	11
+b_num	b_route	b_time
+11	kukatpally	9
+12	Madhapur	10
+13	Himayathnagar	11
+b_num	b_route	b_time	Driver_name
+11	kukatpally	7	NULL
+12	Nizampet	10	NULL
+13	Himayathnagar	11	NULL
+Tables_in_BusTicketReservation
+bus
+ticket
+t_num	t_amount	t_date
+513	90	2021-04-13
+514	100	2021-04-12
+515	120	2021-04-11
+t_num	t_amount	t_date
+513	90	2021-04-13
+514	100	2021-04-12
+515	120	2021-04-11
+t_num	t_amount	t_date
+513	90	2021-04-10
+514	100	2021-04-12
+p_id	p_name	p_age
+1	jessy	18
+2	Mercy	17
+3	Dia	16
+4	Romio	18
+p_id	p_name	p_age
+1	jessy	18
+2	Mercy	17
+3	Dia	16
+4	Romio	18
+p_id	p_name	p_age
+1	jessy	18
+2	Mercy	17
+3	Dia	16
+4	Romio	18
