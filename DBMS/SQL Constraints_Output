@@ -1,0 +1,20 @@
+empnum	emp_name	age
+123	Ricky	20
+456	Honey	18
+678	Jessi	NULL
+567	Pandu	23
+rollnum	stu_name
+2	Hanss
+ht_num	name
+1	sita
+2	rama
+3	laxmana
+evid	evname	coor_id
+13	dance	1
+14	singing	2
+15	skit	3
+Tables_in_Employee
+employee
+event
+student
+student1
