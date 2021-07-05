@@ -1,0 +1,37 @@
+CUSTOMER_NAME	cus_id
+pandu	1
+cherry	2
+cus_name	cus_id
+jessi	3
+lilly	4
+res_id	cus_id	day
+101	1	2021-04-01
+102	2	2021-04-02
+cus_id	cus_name
+2	cherry
+3	jessi
+cus_id	cus_name
+1	pandu
+2	cherry
+3	jessi
+cus_id
+4
+cus_id
+1
+2
+3
+cus_id
+1
+2
+3
+cus_id
+3
+cus_name	cus_id
+pandu	1
+cherry	2
+jessi	3
+lilly	4
+res_id	cus_id	day
+101	1	2021-04-01
+102	2	2021-04-02
+103	3	2021-04-03
