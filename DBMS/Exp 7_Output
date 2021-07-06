@@ -1,0 +1,37 @@
+Minimum_cgpa
+8.5
+Maximum_cgpa
+9
+Average_cgpa
+8.7
+Sum_of_cgpa
+34.8
+Count_cgpa
+4
+htnum	name	cgpa	busnum
+1	Dora	8.5	1
+3	Shizuka	8.8	3
+4	Doraemon	8.5	2
+name
+Nobitha
+Shizuka
+count(*)
+2
+htnum	name	cgpa	busnum
+1	Dora	8.5	1
+4	Doraemon	8.5	2
+3	Shizuka	8.8	3
+2	Nobitha	9	1
+htnum	name	cgpa	busnum
+2	Nobitha	9	1
+3	Shizuka	8.8	3
+1	Dora	8.5	1
+4	Doraemon	8.5	2
+busnum	count(*)
+1	2
+busnum	Stu_count_bus
+1	2
+3	1
+2	1
+htnum	name	cgpa
+2	Nobitha	9
