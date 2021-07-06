@@ -1,0 +1,20 @@
+create table student(htnum int primary key,name varchar(20),cgpa real,busnum int);
+insert into student values(1,'Dora',8.5,1),(2,'Nobitha',9.0,1),(3,'Shizuka',8.8,3),(4,'Doraemon',8.5,2);
+select min(cgpa) as Minimum_cgpa from student;
+select max(cgpa) as Maximum_cgpa from student;
+select avg(cgpa) as Average_cgpa from student;
+select sum(cgpa) as Sum_of_cgpa from student;
+select count(cgpa) as Count_cgpa from student;
+
+select * from student where cgpa <(select max(cgpa) from student);
+select name from student where cgpa > (select avg(cgpa) from student);
+select count(*) from student where cgpa >(select avg(cgpa) from student);
+
+select * from student order by cgpa;
+select * from student order by cgpa desc;
+
+select busnum,count(*) from student group by busnum having count(*)=2;
+select busnum,count(*) as Stu_count_bus from student group by busnum;
+
+create view meritstudentview as select htnum,name,cgpa from student where cgpa>=9;
+select * from meritstudentview;
